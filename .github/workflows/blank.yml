@@ -35,6 +35,6 @@ jobs:
 
       - name: Update index.html
         run: |
-          echo "this is docker demo" > /home/tamil7000/actions-runner/vol/website/index.html
+          echo "Hi Mary! This is a docker demo" > /home/tamil7000/actions-runner/vol/website/index.html
           cat /home/tamil7000/actions-runner/vol/website/index.html
 
