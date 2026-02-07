@@ -32,7 +32,7 @@ jobs:
       # - name: Run a http docker image
       #   run: |
       #     docker run -d --name my-apache -p 8080:80 -v /home/tamil7000/actions-runner/vol/website:/usr/local/apache2/htdocs httpd:latest
-
+            docker run -d --name my-apache -p 8080:80 -v C:/Users/Stellamary/website:/usr/local/apache2/htdocs httpd:latest
       - name: Update index.html
         run: |
           echo "this is docker demo" > /home/tamil7000/actions-runner/vol/website/index.html
